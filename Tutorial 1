@@ -1,0 +1,54 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //basic story
+            string characterName;
+            int characterAge;
+            string wifesName = "Alice";
+        
+            characterAge = 74;
+            characterName = "Jhonny Bravitinho";
+            int characterLenght = characterName.Length;
+
+
+            Console.WriteLine("Once upon a time there was a prince called " + characterName);
+            Console.WriteLine( characterName + " was " + characterAge + " years old and was married to " + wifesName);
+            Console.WriteLine( characterName + " didn't like the fact he was about to die because he was " + characterAge);
+            Console.WriteLine("but " + characterName + " really liked his name aswell as his wife's name " + wifesName);
+            Console.WriteLine(characterName + " was "  + characterLenght + " characters long");
+            Console.WriteLine("123456789"[8]);
+            Console.WriteLine(characterName.ToUpper());
+            Console.WriteLine(characterName.ToLower());
+            Console.WriteLine(characterName.Contains("Bravit"));
+            Console.WriteLine(characterName.IndexOf("Bravit"));
+            Console.WriteLine(characterName.Substring(7, 6));
+            Console.ReadLine();
+            
+            //    \n  = new line  
+            //    \" = show the "
+            //     "something" + "something"   you can add string together that is called concatination
+            // 
+
+
+
+            //Types of data in C#
+
+            //string used to store text
+            string schoolName = "Harvard";
+            //char used to store a single digit
+            char grade = 'A';
+            //int used to store a whole number
+            int myAge = 14;
+            //float, double, decimal used to store decimal points float<decimal accuracy
+            double gpa = 4.3;
+            //bool used to store true or false information
+            bool likesIceCream = true;
+
+        }
+    }
+}
