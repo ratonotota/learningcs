@@ -1,0 +1,26 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello welcome to the Popoopopo World where you can create whatever your imagination allows ");
+            Console.Write("Name your character : ");
+             string charName = Console.ReadLine();
+            Console.WriteLine("Very well " + charName + "\nWhat is your character's gender oh wait I don't care.");
+            Console.Write("What is your profession : ");
+            string charProf = Console.ReadLine();
+            Console.Write("Who is the main villan : ");
+            string villan = Console.ReadLine();
+
+            Console.WriteLine("Here is your story \nOne day  a beautiful "+ charProf+" called "+charName+" he was walking peacefully");
+            Console.Write("when " + villan + " came and killed him \n the end! ");
+
+
+
+            Console.ReadLine();
+        }
+    }
+}
