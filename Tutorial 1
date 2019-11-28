@@ -9,10 +9,10 @@ namespace learningtodayfinish
             //basic story
             string characterName;
             int characterAge;
-            string wifesName = "Alice";
+            string wifesName = "Sam";
         
-            characterAge = 74;
-            characterName = "Jhonny Bravitinho";
+            characterAge = 14;
+            characterName = "Sebby";
             int characterLenght = characterName.Length;
 
 
@@ -25,9 +25,10 @@ namespace learningtodayfinish
             Console.WriteLine(characterName.ToUpper());
             Console.WriteLine(characterName.ToLower());
             Console.WriteLine(characterName.Contains("Bravit"));
-            Console.WriteLine(characterName.IndexOf("Bravit"));
-            Console.WriteLine(characterName.Substring(7, 6));
-            Console.ReadLine();
+            Console.WriteLine(characterName.IndexOf("Seb"));
+            Console.WriteLine(characterName.Substring(0, 3));
+
+  
             
             //    \n  = new line  
             //    \" = show the "
@@ -49,6 +50,23 @@ namespace learningtodayfinish
             //bool used to store true or false information
             bool likesIceCream = true;
 
+
+            // Number  ++ add one  -- subtract one     + - * / 
+            //Basic operations
+            Console.WriteLine ( Math.Max(4, 5));
+            Console.WriteLine( Math.Min(4, 5));
+            Console.WriteLine(Math.Sqrt(4));
+            Console.WriteLine(Math.Pow(4, 5));
+            Console.WriteLine (Math.Abs(54.5435));
+            Console.WriteLine(Math.Round(4.4325));
+            float wishes = 5f;
+
+            wishes++;
+            wishes--;
+          //  Console.WriteLine(wishes);
+
+
+            Console.ReadLine();
         }
     }
 }
