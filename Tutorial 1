@@ -51,19 +51,6 @@ namespace learningtodayfinish
             bool likesIceCream = true;
 
 
-            // Number  ++ add one  -- subtract one     + - * / 
-            //Basic operations
-            Console.WriteLine ( Math.Max(4, 5));
-            Console.WriteLine( Math.Min(4, 5));
-            Console.WriteLine(Math.Sqrt(4));
-            Console.WriteLine(Math.Pow(4, 5));
-            Console.WriteLine (Math.Abs(54.5435));
-            Console.WriteLine(Math.Round(4.4325));
-            float wishes = 5f;
-
-            wishes++;
-            wishes--;
-          //  Console.WriteLine(wishes);
 
 
             Console.ReadLine();
