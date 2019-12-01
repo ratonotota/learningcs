@@ -1,0 +1,22 @@
+   static void Main(string[] args)
+        {
+
+
+            doFunny("Jhonny", 10, 2100, "Clarice");
+            doFunny("Eden", 14, 2097, "Clarice");
+            doFunny("Eden", 14, 2098, "Clarice",2018);
+
+            Console.ReadLine();
+        }
+
+
+        static void doFunny(string name, int age, int death, string mumname, int curren = 2019)
+        {
+            Console.WriteLine("Hello " + name + " you are " + age + " years old, and your mum is called " + mumname );
+            int agelive = curren - age;
+            int theoneINeed = death - agelive + age ;
+            
+            Console.WriteLine("I predict that you will die in " + death + " therefore you will live " + theoneINeed + " years, and was born in " +agelive );
+
+
+        }
