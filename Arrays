@@ -1,0 +1,28 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+
+        {
+     
+            string[] friends = { "Ollie", "Bollie", "Mollie", "follie" , "gollie" };
+            int[] lotto = new int[5];
+            lotto[0] = 12;
+            lotto[1] = 122;
+            lotto[2] = 132;
+            lotto[3] = 142;
+            lotto[4] = 71;
+         
+            Console.Write(lotto[1] + " " );
+            Console.Write(lotto[2] + " ");
+            Console.Write(lotto[4] + "\n ");
+
+            Console.WriteLine(friends[2]);
+            Console.ReadLine();
+        }
+    }
+}
