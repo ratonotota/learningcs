@@ -1,0 +1,95 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool isFast = true;
+            bool isTall = true;
+            bool isFat = true;
+
+
+            Console.Write(" Are you fast? : ");
+
+            if (Console.ReadLine() == "yes")
+            {
+                isFast = true;
+            }
+            else
+            {
+                isFast = false;
+            }
+
+
+
+            Console.Write(" Are you fat? : ");
+            if (Console.ReadLine() == "yes")
+            {
+                isFat = true;
+            }
+            else
+            {
+                isFat = false;
+            }
+
+
+            Console.Write(" Are you Tall? : ");
+            if (Console.ReadLine() == "yes")
+            {
+                isTall = true;
+            }
+            else
+            {
+                isTall = false;
+            }
+        
+
+
+
+
+
+
+
+            if (isFast && isTall && isFat)
+            {
+                Console.WriteLine("You are a fast person and is tall so I think you got potential but you are fat so lose some weight");
+            }
+            else if (isFast && isTall && !isFat)
+            {
+                Console.WriteLine("You are a fast person and is tall so I think you got potential and you aren't fat good job, make sure to keep your muscles");
+            }
+            else if (isFast && !isTall && isFat)
+            {
+                Console.WriteLine("You are a fast person but isn't tall so probably no potential and you are fat so go lose some weight");
+            }
+            else if (!isFast && isTall && isFat)
+            {
+                Console.WriteLine("You are not fast but you are tall so go play basketball or something, and you are fat so go lose some weight");
+            }
+            else if (isFast && !isTall && !isFat)
+            {
+                Console.WriteLine("You are fast but you are not tall so probably no potential, good job on not being fat though ");
+            }
+            else if (!isFast && !isTall && isFat)
+            {
+                Console.WriteLine("You are not a fast person and you are not tall you got zero potential and you are fat so lose some weight to stay healthy");
+            }
+            else if (!isFast && isTall && !isFat)
+            {
+                Console.WriteLine("You are not a fast person and you are tall go play basketball or something, and you are not fat good job, stay healthy");
+            }
+            else if (!isFast && !isTall && !isFat)
+            {
+                Console.WriteLine("You are not a fast person and you are not tall you have 0 potential and you are fat go lose some weight");
+            }
+          
+
+
+
+            Console.ReadLine();
+
+        }
+    }
+}
