@@ -1,1 +1,28 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int Score = 0;
+             
+            while (Score < 100)
+            {
+                Console.WriteLine(Score );
+                Score = Score + 10;
+            }
+            for (Score = Score ; Score >= 50; Score = Score - 10)
+            {
+                Console.WriteLine(Score);
+            }
+
+            Console.ReadLine();
+
+        }
+
+
+    }
+}
 
