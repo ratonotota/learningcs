@@ -1,0 +1,61 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(getDay(0));
+
+            Console.ReadLine();
+        }
+
+
+        static string getDay (int dayNum)
+        {
+
+            string dayname;
+            Console.WriteLine("what day is it  :");
+            dayNum =Convert.ToInt32(Console.ReadLine());
+            switch (dayNum)
+            {
+                case 1:
+                    dayname = "Sunday";
+                    break;
+                case 2:
+                    dayname = "Monday";
+                    break;
+                case 3:
+                    dayname = "Tuesday";
+                    break;
+                case 4:
+                    dayname = "Wednesday";
+                    break;
+                case 5:
+                    dayname = "Thursday";
+                    break;
+                case 6:
+                    dayname = "Friday";
+                    break;
+                case 7:
+                    dayname = "Saturday";
+                    break;
+                default:
+                    dayname = "Invalid day";
+                    break;
+
+
+
+
+
+
+
+
+            }
+          
+
+            return dayname;
+        }
+    }
+}
