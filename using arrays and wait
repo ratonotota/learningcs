@@ -1,0 +1,33 @@
+using System;
+
+namespace learningtodayfinish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] text = new string[10];
+            text[0] = "d";
+            text[1] = "i";
+            text[2] = "e";
+            text[3] = " ";
+            text[4] = "s";
+            text[5] = "l";
+            text[6] = "u";
+            text[7] = "t";
+
+            int i = 0;
+            while ( i < text.Length)
+            {
+                Console.WriteLine(text[i]);
+                i++;
+                System.Threading.Thread.Sleep(2000);
+
+            }
+                
+
+        }
+
+        
+    }
+}
