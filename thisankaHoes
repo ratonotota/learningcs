@@ -1,0 +1,20 @@
+using System;
+
+namespace Look_a_this
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.Write("Insert how many bitches you got thisanka : ");
+            int thisankasBitches = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Insert how many bitches your mum got : ");
+            int mumBitches = Convert.ToInt32(Console.ReadLine());
+            int familyBitches = thisankasBitches + mumBitches;
+
+            Console.WriteLine("Thisanka u got " + familyBitches + " hoes");
+            Console.ReadLine();
+        }
+    }
+}
