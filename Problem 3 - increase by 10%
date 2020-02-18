@@ -1,0 +1,31 @@
+using System;
+
+namespace Look_a_this
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double diesel = 1.47;
+            double unleaded = 2.06;
+            double octane = 2.17;
+
+            Console.WriteLine("Initial price : ");
+            Console.WriteLine("diesel = " + diesel);
+            Console.WriteLine("unleaded = " + unleaded);
+            Console.WriteLine("octane = " + octane );
+
+            diesel = 1.1 * diesel;
+            unleaded = 1.1 * unleaded;
+            octane = 1.1 * octane;
+            Console.WriteLine("\nAfter price : ");
+            Console.WriteLine("diesel = " + diesel);
+            Console.WriteLine("unleaded = " + unleaded);
+            Console.WriteLine("octane = " + octane);
+
+            Console.ReadLine();
+        }
+      
+}
+    }
