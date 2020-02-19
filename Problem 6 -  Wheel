@@ -1,0 +1,26 @@
+using System;
+
+namespace Look_a_this
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double radiusofWheel; 
+            double diameterofWheel;
+            double wheelRotations;
+            Console.Write("What is the radius of the wheel :  ");
+            radiusofWheel = Convert.ToDouble(Console.ReadLine());
+            diameterofWheel = radiusofWheel * 2;
+            Console.Write("How many rotations did the wheel do : ");
+            wheelRotations = Convert.ToDouble(Console.ReadLine());
+            
+            double wheelCircum = Convert.ToDouble(Math.PI * diameterofWheel);
+            Console.WriteLine(wheelCircum * wheelRotations);
+
+
+            Console.ReadLine();
+        }
+      
+}
+    }
