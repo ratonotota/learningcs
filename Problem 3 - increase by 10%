@@ -29,3 +29,22 @@ namespace Look_a_this
       
 }
     }
+
+
+
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+ 
+		Console.Write("How much money to buy lunch :");
+		decimal money =  Convert.ToDecimal(Console.ReadLine()); 
+		Console.Write("How many people sharing :");
+		decimal amt =  Convert.ToDecimal(Console.ReadLine());
+	     decimal result = money / amt;
+		Console.WriteLine("$" + result)
+}}
