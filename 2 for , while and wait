@@ -1,0 +1,42 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("What is your age : ");
+		int age = Convert.ToInt32(Console.ReadLine());
+		
+		if(age < 11){
+		
+			Console.WriteLine("You have been penetrated in the rear end by Edon ");
+		
+		
+		}
+		else if (age > 10 || age < 18)
+		{
+			string indiaMAn = "Idian man says : '' You are almost too old better use u while I can ''\nIndian man puts his willy wonka in your mouth ";
+			 
+			for ( int p = 0; p <= indiaMAn.Length; p++)
+				 {
+				
+				Console.WriteLine(indiaMAn.Substring(p,1));
+				System.Threading.Thread.Sleep(200);
+								  
+			 }
+		
+		int i = 0;
+			while( 1 < indiaMAn.Length){
+			
+			Console.Write(indiaMAn.Substring(i, 1));
+				i++;
+				  System.Threading.Thread.Sleep(200);
+			
+			}
+			
+			
+			
+			
+			
+	}}
+}
