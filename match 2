@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string[]  names = {"Anal",  "rEtard", "PP ", "austistic", "heroin ", "hermione", "asmr", "nigga", "magical negro", "shotacon", "cancerous", "furry"};
+		string[]  namesOne = {"Large size",  "Smol", "kid ", "tv", "bathtub ", "negro", "toaster", "basketball", "Madoka magica" , "veiny", "musculous", "sloppy"};
+		
+		int namess = 0;
+	while (namess > 12)	{
+		Console.WriteLine("When is your birthday in number");
+	 namess = Convert.ToInt32(Console.ReadLine()); 
+		 if (namess > 12){
+			 Console.WriteLine("Number too big bitch 1 to 12");
+		 }}
+		
+		
+	Console.ReadLine();
+}}
