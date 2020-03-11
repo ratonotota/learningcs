@@ -4,17 +4,32 @@ public class Program
 {
 	public static void Main()
 	{
-		string[]  names = {"Anal",  "rEtard", "PP ", "austistic", "heroin ", "hermione", "asmr", "nigga", "magical negro", "shotacon", "cancerous", "furry"};
+string[]  names = {" ", "Anal",  "rEtard", "PP ", "austistic", "heroin ", "hermione", "asmr", "nigga", "magical negro", "shotacon", "cancerous", "furry"};
 		string[]  namesOne = {"Large size",  "Smol", "kid ", "tv", "bathtub ", "negro", "toaster", "basketball", "Madoka magica" , "veiny", "musculous", "sloppy"};
 		
-		int namess = 0;
-	while (namess > 12)	{
-		Console.WriteLine("When is your birthday in number");
+		int namess = 13;
+while ( namess > 12 ) {
+		Console.WriteLine("When is your birthday month in number");
 	 namess = Convert.ToInt32(Console.ReadLine()); 
 		 if (namess > 12){
 			 Console.WriteLine("Number too big bitch 1 to 12");
-		 }}
+		 }}	
+ int namesss = 13;
+		
+		while (namesss > 11){
+	Console.WriteLine("Choose a random  number between 0 - 12");
+	namesss =  Convert.ToInt32(Console.ReadLine());
+			if (namesss > 11){ Console.WriteLine("I said 1 to 12 are u dumb ");	}
+			}
+		
+		Console.WriteLine("You are " + names[namess] + " " + namesOne[namesss]);
 		
 		
-	Console.ReadLine();
-}}
+		
+		
+		
+		
+		
+		
+		
+	}}
