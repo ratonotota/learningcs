@@ -1,0 +1,14 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+	Console.Write("Enter a number : ");
+   int numberOne =	Convert.ToInt32(Console.ReadLine());
+		Console.Write("Enter another number : ");
+   int numberTwo =	Convert.ToInt32(Console.ReadLine());
+		int result = numberOne + numberTwo;
+		Console.WriteLine( numberOne +" + " + numberTwo + " = " + result);
+	}
+}
