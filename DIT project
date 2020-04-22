@@ -15,12 +15,15 @@ public class Program
 	
 		if(level == 1 )
 		{ 
-		 
-			Console.WriteLine(rand.Next(1,5)  );
+		int numOne = rand.Next(1,5);
+		int numTwo = rand.Next(1,5);	
+			Console.WriteLine(" What is "+ numOne + "+" + numTwo + "?"  );
+			int userAnswer = Convert.ToInt32(Console.ReadLine());
+		int correctResult = numOne + numTwo;
 		}
 		
 		
-	Console.WriteLine(userName);
+	
 		
 		
 		
