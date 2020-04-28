@@ -2,19 +2,21 @@ using System;
 
 class MainClass {
   public static void Main (string[] args) {
-    
+    //Asks for user input and store it as the name of the user
 		Console.WriteLine("Enter your name : ");
 	    string userName = Console.ReadLine();
 		var rand = new Random();
 	 int points = 0;
-		
+		//Asks the user to choose a level which will then be used later
 		Console.WriteLine("Choose a level 1 - 3 (1 is the easiest 3 is the hardest");
 	
 		int level = Convert.ToInt32(Console.ReadLine());
 	  
     int repeat = 10;
+    // if the user picked level one it will excute this part of the code
 		if(level == 1 ) {
 int i = 0;
+//Loops this program 10 times
 while (i < 10)  {
   i++;
 	int	numOne = rand.Next(1,5);
@@ -27,17 +29,19 @@ while (i < 10)  {
      if (userAnswer == correctResult) {
 Console.WriteLine("good job that is correct");
 points++;
- 
+ //add a score every time the use gets the right answer
 
      }
      else {
       Console.WriteLine("Incorrect");
+      //Displays inccorent and doesn't add anything
      } }
 
 Console.WriteLine("You got : " + points +"/10" );
 		
 		
     }
+    // if the user picked level two it will excute this part of the code
     	if(level == 2 ) {
 int i = 0;
 while (i < 10)  {
@@ -62,7 +66,8 @@ points++;
 Console.WriteLine("You got : " + points +"/10" );
 		
 		
-    }
+    } 
+    // if the user picked level one it will excute this part of the code
         	if(level == 3 ) {
 int i = 0;
 while (i < 10)  {
